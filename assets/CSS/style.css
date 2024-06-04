@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "sora", sans-serif;
+    font-size: 1.6rem;
+}
+/* =============================================COMMON======================================================== */
+/* =============================================COMMON======================================================== */
+/* =============================================COMMON======================================================== */
+a{
+    text-decoration: none;
+}
+/* ===========BOX=========== */
+.box{
+    width: 1170px;
+    max-width: calc(100%-48px);
+    margin-left:auto;
+    margin-right: auto;
+}
+/* ============LINE CLAMP============ */
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1 );
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2 );
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3 );
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 4 );
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/* ============HEADING============ */
+.h70px-w{
+    color: #FFF;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 114.286%; /* 114.286% */
+    letter-spacing: -1.4px;    
+}
+.h50px-b{
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;    
+}
+.h50px-w{
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+.h26px-b{
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 138.462%; /* 138.462% */
+}
+.h18px-b{
+    color: #10375C;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+/* ========== p ========== */
+.p18px-w{
+    color: #C9D2DA;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 166.667%; /* 166.667% */
+}
+/* ==========BTN========== */
+.btn:hover{
+    opacity: 0.8;
+
+}
+.btn{
+    border-radius: 22px;
+    background: #2E80CE;
+    border: none;
+}
+.btn-205px{
+    border-radius: 30px;
+    background: #2E80CE;
+    width: 205px;
+    height: 60px;
+}
+
+
+
+/* ===================================================HEADER==================================================== */
+/* ===================================================HEADER==================================================== */
+/* ===================================================HEADER==================================================== */
+.box-header-hero{
+    background: #10375C;
+    width: 100%;
+    height: 800px;
+}
+
+.header{
+    padding-top: 36px;
+    padding-bottom:84px ;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.header__logo .text-top{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px; /* 77.778% */
+}
+.header__logo .text-bottom{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: right;
+}
+/* =============MENU============ */
+.header__menu{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+.header a{
+    color: #C9D2DA;
+    font-weight: 300;
+    line-height: 175%; /* 175% */
+}
+.header a:hover{
+    color: #FFF;
+    text-shadow: 1px 0 0 currentColor;
+}
+.header__menu--home{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header__menu--home .dot{
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+/* ==========button============ */
+.header__button .btn{
+    width: 104px;
+    height: 44px;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 175%; /* 175% */
+    margin-left: 28px;
+}
+/* ===================================================HERO==================================================== */
+/* ===================================================HERO==================================================== */
+
+.hero{
+    margin-top: px;
+    display: flex;
+}
+.hero__texts .h70px-w{
+    width: 63%;
+    margin-top: 60px;
+}
+/* ==========TEXTS========= */
+.hero__texts .p18px-w{
+    margin-top: 22px;
+    margin-bottom: 32px;
+    width: 59%;
+}
+.hero__texts--button{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+
+.hero__texts--button .or-call
+{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.667%; /* 166.667% */
+}
+/* ==========IMG=========== */
+.hero__img{
+    display: flex;
+    position: relative;
+    width: 65%;
+}
+.hero__img--top{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hero__img--bottom{
+    margin-left: 324px;
+    width: 210px;
+    height: 410px;
+    margin-top: 65px;
+}

@@ -17,9 +17,8 @@ a{
 /* ===========BOX=========== */
 .box{
     width: 1170px;
-    max-width: calc(100%-48px);
-    margin-left:auto;
-    margin-right: auto;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
 }
 /* ============LINE CLAMP============ */
 .line-clamp {
@@ -247,16 +246,20 @@ a{
 .hero{
     margin-top: px;
     display: flex;
+    justify-content: space-between;
 }
 .hero__texts .h70px-w{
-    width: 63%;
+
     margin-top: 60px;
 }
 /* ==========TEXTS========= */
+.hero__texts{
+    width: 50%;
+}
 .hero__texts .p18px-w{
     margin-top: 22px;
     margin-bottom: 32px;
-    width: 59%;
+    width: 80%;
 }
 .hero__texts--button{
     display: flex;
@@ -275,9 +278,7 @@ a{
 }
 /* ==========IMG=========== */
 .hero__img{
-    display: flex;
     position: relative;
-    width: 65%;
 }
 .hero__img--top{
     position: absolute;

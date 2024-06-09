@@ -5,6 +5,7 @@ html{
     font-size: 62.5%;
 }
 body{
+    min-width: 100vh;
     font-family: "sora", sans-serif;
     font-size: 1.6rem;
 }
@@ -174,7 +175,7 @@ a{
 /* ===================================================HEADER==================================================== */
 .box-header-hero{
     background: #10375C;
-    width: 100vw;
+    min-width: 100vw;
     height: 100vh;
 }
 

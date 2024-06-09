@@ -115,17 +115,25 @@
                 </label>
             </div>
             <!-- NAV -->
-            <div id="navMB" class="menu__drawer--nav"></div>
-            <script>
-                const navPC = document.querySelector("#navPC");
-                const navMB = document.querySelector("#navMB");
-                // COPY
-                navMB.innerHTML = navPC.innerHTML;
-                const logoPC = document.querySelector("#logoPC");
-                const logoMB = document.querySelector("#logoMB");
-                logoMB.innerHTML = logoPC.innerHTML;
-            </script>
-
+            <div class="menu-list">
+                <div id="navMB" class="menu__drawer--nav"></div>
+                <script>
+                    const navPC = document.querySelector("#navPC");
+                    const navMB = document.querySelector("#navMB");
+                    // COPY
+                    navMB.innerHTML = navPC.innerHTML;
+                </script>
+                <div class="show-on-mobile">
+                    <div  class="menu__line"></div>
+                    <!-- login signup -->
+                    <div id="navMB" class="header__menu--about nav">
+                        <a href="#!">Log In</a>
+                    </div>
+                    <div id="navMB" class="header__menu--about nav">
+                        <a href="#!">Sign Up</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <main>

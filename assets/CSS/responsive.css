@@ -109,7 +109,7 @@
         align-items: center;
     }
     .box-header-hero{
-        height: 140vh;
+        height: 120vh;
     }
     .hero__texts--button{
         justify-content: center;
@@ -206,7 +206,7 @@
 
 }
 /* TABLET */
-@media (min-width: 768px) and (max-width: 991.98) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     .show-on-mobile{
         display: none;
     }
@@ -245,7 +245,7 @@
         border-radius: 12px;
     }
     .box-header-hero{
-        height: 150vh;
+        height: 120vh;
     }
     .hero__texts{
         width: 100%;
